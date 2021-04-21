@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+	height: 100%;
+	width:; 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	height: 100%;
+	width:; 100%;
+	margin: 0;
+	padding: 0;
+
+	/* Background taken from 
+	https://uhdwallpapers.org/wallpaper/inspire-3d-art_897948/
+	Originally sourced to Microsoft */
+	background-image: linear-gradient(#111, #333); 
+
+	background-size: 100%; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+
+h1 {
+	padding: 0;
+	margin: 4pt 0pt;
+	font-size: 22pt;
+}
+
+.main {
+	background-color: #ebebeb;
+	color: #333333;
+	font-family: 'Roboto', san-serif;
+	font-size: 14pt;
+
+	margin: 20pt;
+	padding: 5pt 15pt;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: cyan;
+	text-decoration: none;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.profile {
+	margin-left: -10%;
+	height: 100%;
+}

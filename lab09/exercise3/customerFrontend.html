@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="customerBackend.php", method="post" id="form">
+		<p>
+			<label for="user">Email: </label><input type="text" id="user" name="user"><br>
+			<label for="password">Password: </label><input type="text" id="password" name="password"><br>
+		</p>
+
+		<p>
+			<b>Items</b> <br>
+			<input type="number" id="item1" name="item1" min="0" value="0"><label for="item1"> Banana ($2.50)</label><br>
+			<input type="number" id="item2" name="item2" min="0" value="0"><label for="item2"> Fork ($6.90)</label><br>
+			<input type="number" id="item3" name="item3" min="0" value="0"><label for="item3"> Ball ($4.20) </label><br>
+		</p>
+
+		<p>
+			<b>Shipping</b> <br>
+			<input type="radio" id="free" name="ship" value="0"><label for="free">Free 7 Day Shipping</label><br>
+			<input type="radio" id="overnight" name="ship" value="50"><label for="overnight">Overnight Shipping ($50)</label><br>
+			<input type="radio" id="three" name="ship" value="5"><label for="three">Three Day Shipping ($5)</label><br>
+		</p>
+
+		<input type="reset">
+		<input type="submit">
+	</form>
+
+	<script src="formChecker.js"></script>
+</body>
+</html>
